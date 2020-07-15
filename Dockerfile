@@ -9,6 +9,6 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 
-RUN pip install firebase-admin
+RUN pip install firebase-admin==4.3.0
 
 RUN apk del gcc build-base linux-headers
