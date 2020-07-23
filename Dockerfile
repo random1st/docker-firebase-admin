@@ -8,4 +8,4 @@ RUN apk add --no-cache  \
     &&  pip install firebase-admin==4.3.0 \
     && apk del gcc linux-headers build-base \
     && rm -rf /root/.cache \
-    && pip install pipenv==2018.11.26
+    && pip install --no-cache-dir pipenv==2018.11.26
